@@ -27,7 +27,6 @@ module Api
                 render json: {status: 'SUCCESS', message:'Deleted article', data:article},status: :ok
             end
 
-<<<<<<< HEAD
             def update
                 article = Article.find(params[:id])
                 
@@ -39,8 +38,6 @@ module Api
 
             end
 
-=======
->>>>>>> articles-destroy
             private
 
             def article_params
